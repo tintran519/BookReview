@@ -7,6 +7,10 @@ gem 'rails', '4.2.7'
 gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+# Simple Form
+gem 'simple_form', '~> 3.4'
+# Bootstrap Sass
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -35,6 +39,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'rb-readline'
 end
 
 group :development do
