@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  # added routes by devise
+  devise_for :users
+
   resources :books
   root 'books#index'
   # The priority is based upon order of creation: first created -> highest priority.
