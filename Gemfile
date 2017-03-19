@@ -11,6 +11,8 @@ gem 'sass-rails', '~> 5.0'
 gem 'simple_form', '~> 3.4'
 # Devise
 gem 'devise', '~> 4.2', '>= 4.2.1'
+# Paperclip
+gem 'paperclip', '~> 5.1'
 # Bootstrap Sass
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 # Use Uglifier as compressor for JavaScript assets
